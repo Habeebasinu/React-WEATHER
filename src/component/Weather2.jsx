@@ -8,8 +8,8 @@ function Weather() {
   return (
     <>
       <div
-        className='min-h-screen bg-cover bg-no-repeat bg-center flex items-center justify-center px-4'
-        style={{ backgroundImage: `url(${HOME})` }}
+        className='min-h-screen bg-cover bg-no-repeat bg-center flex items-center justify-center px-4  bg-blue-950'
+        
       >
         <div className="bg-white/30 backdrop-invert backdrop-opacity-60 rounded-xl p-6 w-full max-w-md">
           <form onSubmit={submit} className='flex flex-col sm:flex-row items-center gap-4'>
@@ -35,3 +35,4 @@ function Weather() {
 }
 
 export default Weather
+
